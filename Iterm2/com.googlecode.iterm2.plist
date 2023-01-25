@@ -3936,7 +3936,7 @@
 			<key>guid</key>
 			<string>67A59421-8927-4D40-8804-773B2C958D47</string>
 			<key>title</key>
-			<string>start screen with session name</string>
+			<string>screen start session with name</string>
 			<key>value</key>
 			<string>screen -S your_session_name
 
@@ -3948,9 +3948,9 @@
 			<key>guid</key>
 			<string>0F823DD5-D09F-4270-81CA-69F692916964</string>
 			<key>title</key>
-			<string>configure aws sso profile</string>
+			<string>aws configure sso profile</string>
 			<key>value</key>
-			<string>aws configure sso —profile</string>
+			<string>aws configure sso --profile</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3964,6 +3964,16 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>guid</key>
+			<string>5D47AD64-E69A-462A-A49F-05F578D28C8D</string>
+			<key>title</key>
+			<string>git delete merged branches locally</string>
+			<key>value</key>
+			<string>git branch --merged master | grep -v ‘^[ *]*master$’ | xargs git branch -d</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>SoundForEsc</key>
 	<false/>
@@ -3972,7 +3982,6 @@
 		<string>Command History</string>
 		<string>Snippets</string>
 		<string>Actions</string>
-		<string>Captured Output</string>
 	</array>
 	<key>URLHandlersByGuid</key>
 	<dict/>

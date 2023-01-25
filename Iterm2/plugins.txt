@@ -1,0 +1,4 @@
+git
+history
+zsh-autosuggestions
+zsh-syntax-highlighting

@@ -1347,7 +1347,7 @@
 			<key>Send Code When Idle</key>
 			<false/>
 			<key>Shortcut</key>
-			<string></string>
+			<string>G</string>
 			<key>Silence Bell</key>
 			<false/>
 			<key>Sync Title</key>
@@ -3970,7 +3970,7 @@
 			<key>title</key>
 			<string>git delete merged branches locally</string>
 			<key>value</key>
-			<string>git branch --merged master | grep -v ‘^[ *]*master$’ | xargs git branch -d</string>
+			<string>git branch --merged master | grep -v '^[ *]*master$' | xargs git branch -d</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>

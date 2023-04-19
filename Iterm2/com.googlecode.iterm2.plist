@@ -3974,6 +3974,16 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>guid</key>
+			<string>EB08917D-CF4E-4882-908B-10E6E7BAC5D6</string>
+			<key>title</key>
+			<string>pre-commit run all files</string>
+			<key>value</key>
+			<string>pre-commit run --all-files</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>SoundForEsc</key>
 	<false/>

@@ -1,0 +1,7 @@
+# Directory environment variables
+.envrc
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride

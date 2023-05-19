@@ -1,0 +1,18 @@
+[user]
+	name = Kwame Mintah
+[commit]
+	gpgsign = true
+[core]
+	excludesfile = /Users/$USER/.gitignore
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+
+# Conditional configuration for different configs for repositories
+[includeIf "gitdir:~/Documents/ADirectory"]
+  path = .gitconfig-a
+[includeIf "gitdir:~/Documents/BDirectory"]
+  path = .gitconfig-b

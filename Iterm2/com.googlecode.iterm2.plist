@@ -3984,6 +3984,46 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>guid</key>
+			<string>EFDCD18C-61B4-4ACC-B8E6-405EB054F246</string>
+			<key>title</key>
+			<string>terragrunt trace logs</string>
+			<key>value</key>
+			<string>TF_LOG=TRACE terragrunt plan 2&gt;&amp;1 | tee plan.log</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>guid</key>
+			<string>D2236A0A-0D86-41ED-AFF4-42EBAA749746</string>
+			<key>title</key>
+			<string>pre-commit skip check</string>
+			<key>value</key>
+			<string>SKIP=terraform_checkov pre-commit run</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>guid</key>
+			<string>6B11592B-5E14-4BEE-BDBB-0C6F3DF2F590</string>
+			<key>title</key>
+			<string>python venv activate</string>
+			<key>value</key>
+			<string>source venv/bin/activate</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>guid</key>
+			<string>4E57BB03-65A2-46F8-AD8F-0806E6FD6D62</string>
+			<key>title</key>
+			<string>python venv deactivate </string>
+			<key>value</key>
+			<string>deactivate</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>SoundForEsc</key>
 	<false/>

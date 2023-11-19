@@ -1325,7 +1325,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>2000</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -2134,7 +2134,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>2000</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -2961,7 +2961,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>2000</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -3834,7 +3834,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>2000</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -4021,6 +4021,16 @@
 			<string>python venv deactivate </string>
 			<key>value</key>
 			<string>deactivate</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>guid</key>
+			<string>E9F50A76-913C-4C95-AF78-4E218FED8783</string>
+			<key>title</key>
+			<string>aws s3api delete-objects</string>
+			<key>value</key>
+			<string>aws s3api delete-objects --bucket BUCKET-NAME --delete "$(aws s3api list-object-versions --bucket BUCKETNAME --query='{Objects: DeleteMarkers[].{Key:Key,VersionId:VersionId}}')"</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>

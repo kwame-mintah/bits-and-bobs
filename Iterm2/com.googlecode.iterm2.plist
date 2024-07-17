@@ -3966,6 +3966,16 @@
 		</dict>
 		<dict>
 			<key>guid</key>
+			<string>E9F50A76-913C-4C95-AF78-4E218FED8783</string>
+			<key>title</key>
+			<string>aws s3 delete verion markers</string>
+			<key>value</key>
+			<string>aws s3api delete-objects --bucket BUCKET-NAME --delete "$(aws s3api list-object-versions --bucket BUCKETNAME --query='{Objects: DeleteMarkers[].{Key:Key,VersionId:VersionId}}')"</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>guid</key>
 			<string>5D47AD64-E69A-462A-A49F-05F578D28C8D</string>
 			<key>title</key>
 			<string>git delete merged branches locally</string>
@@ -4026,11 +4036,11 @@
 		</dict>
 		<dict>
 			<key>guid</key>
-			<string>E9F50A76-913C-4C95-AF78-4E218FED8783</string>
+			<string>C4FCA199-B471-494F-8675-826A2343F117</string>
 			<key>title</key>
-			<string>aws s3api delete-objects</string>
+			<string>cz bump</string>
 			<key>value</key>
-			<string>aws s3api delete-objects --bucket BUCKET-NAME --delete "$(aws s3api list-object-versions --bucket BUCKETNAME --query='{Objects: DeleteMarkers[].{Key:Key,VersionId:VersionId}}')"</string>
+			<string>cz bump --annotated-tag --changelog --check-consistency</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
